@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/firstprogram_react/static/css/main.66f12c2e.css",
+    "main.js": "/firstprogram_react/static/js/main.b2c3900d.js",
+    "static/js/845.4eb80cca.chunk.js": "/firstprogram_react/static/js/845.4eb80cca.chunk.js",
+    "static/media/photo_2022-05-22_23-17-16.jpg": "/firstprogram_react/static/media/photo_2022-05-22_23-17-16.d103a426889457dca396.jpg",
+    "static/media/y2mate.com - GTA San Andreas  Ah shit here we go again.mp3": "/firstprogram_react/static/media/y2mate.com - GTA San Andreas  Ah shit here we go again.16d6809b050e80054857.mp3",
+    "static/media/photo_2022-06-02_00-46-17.jpg": "/firstprogram_react/static/media/photo_2022-06-02_00-46-17.8f761c688b7247a83122.jpg",
+    "static/media/Untitled culture.mp3": "/firstprogram_react/static/media/Untitled culture.e384462fbba238112954.mp3",
+    "static/media/Untitled fuck.mp3": "/firstprogram_react/static/media/Untitled fuck.22ca5c6d9cae3a7dc99c.mp3",
+    "index.html": "/firstprogram_react/index.html",
+    "main.66f12c2e.css.map": "/firstprogram_react/static/css/main.66f12c2e.css.map",
+    "main.b2c3900d.js.map": "/firstprogram_react/static/js/main.b2c3900d.js.map",
+    "845.4eb80cca.chunk.js.map": "/firstprogram_react/static/js/845.4eb80cca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f12c2e.css",
+    "static/js/main.b2c3900d.js"
+  ]
+}
