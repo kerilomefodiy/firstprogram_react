@@ -1,0 +1,56 @@
+/* обнуляю стандартні значення браузера */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* задаю стилі для тегів по імені className */
+#root {
+  align-items: center;
+}
+
+.App {
+  background-image: url("../Components/Imeges/photo_2022-05-22_23-17-16.jpg");
+  background-size: cover;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: calc(40px + (50 - 40) * ((100vw - 320px) / (1500 - 320)));
+  display: flex;
+  align-items: center;
+  /* з низу і зверху 0, зліва і з права 60 */
+  padding: 0 60px;
+}
+
+a.soundcloud {
+  /* це щоб силка відображалася як кнопка*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  /* це щоб силка відображалася як кнопка*/
+  font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (1500 - 320)));
+  color: crimson;
+  margin-right: auto;
+}
+
+a.soundcloud:hover {
+  color: rgb(220, 98, 122);
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+  font-size: calc(12px + (26 - 12) * ((100vw - 320px) / (1500 - 320)));
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .App {
+    background-image: url("../Components/Imeges/photo_2022-06-02_00-46-17.jpg");
+  }
+}

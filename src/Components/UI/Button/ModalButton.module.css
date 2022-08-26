@@ -1,0 +1,37 @@
+.modalButton {
+  color: crimson;
+  font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (1500 - 320)));
+
+  /* задаю прозорий фон */
+  background: transparent;
+  border: 1px solid crimson;
+  cursor: pointer;
+  /* шоб в правий край залізла кнопка */
+  margin-left: 2%;
+  padding: 0 1%;
+}
+
+.active {
+  color: grey;
+  font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (1500 - 320)));
+
+  /* задаю прозорий фон */
+  background: transparent;
+  border: 1px solid grey;
+  cursor: pointer;
+  /* шоб в правий край залізла кнопка */
+  margin-left: 2%;
+  padding: 0 1%;
+}
+
+/* при наводці шоб змінювалось */
+.modalButton:hover {
+  color: rgb(220, 98, 122);
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+}
+
+/* при наводці шоб змінювалось */
+.active:hover {
+  color: rgb(207, 186, 190);
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+}

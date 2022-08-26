@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 1500px;
+  line-height: 1;
+  /* цей блок для того щоб у браузері не можна було виділяти текст */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  font-size: calc(20px + (151 - 20) * ((100vw - 320px) / (1500 - 320)));
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  margin-top: 4%;
+}
+
+h2 {
+  font-size: calc(20px + (70 - 20) * ((100vw - 320px) / (1500 - 320)));
+  border: 5px solid #000000;
+  border-radius: 20px;
+  color: crimson;
+  background-color: #1c4247;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
